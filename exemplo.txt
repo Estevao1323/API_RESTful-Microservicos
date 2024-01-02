@@ -1,0 +1,20 @@
+Objetivo:
+
+Criar uma API Restful para controle de produtos
+
+- Modelo (entidade): OK
+Produto: id (criado automaticamente pela API), nome, quantidade, valor, observacao
+
+- Repositorio de Produto (todas as opções para fazer um CRUD): OK
+(simula um banco de dados inicialmente)
+Metodos: obterTodos, obterPorId, adicionar,  atualizar, deletar. 
+
+
+- Serviço de produto (o serviço irá utilizar o repositório): OK
+* precisa ter as mesmas opções do repositório.
+* diferença entre REPOSITORY e SERVICE: pode ter regra de negócio ou não.
+Metodos: obterTodos, obterPorId, adicionar,  atualizar, deletar. 
+
+- Controller de produto(classe/endpoint principal para trabalhar com todos os métodos da API.): OK
+Metodos: obterTodos, obterPorId, adicionar,  atualizar, deletar.
+
